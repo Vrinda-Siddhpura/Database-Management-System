@@ -1,4 +1,4 @@
-------------------------------Part – A---------------------------------
+------------------------------Part â€“ A---------------------------------
 
 --1.Handle Divide by Zero Error and Print message like: Error occurs that is - Divide by zero error.
 
@@ -15,7 +15,7 @@ BEGIN CATCH
 	PRINT 'Error occurs that is - Divide by zero error.'
 END CATCH
 
---2.Try to convert string to integer and handle the error using try…catch block.
+--2.Try to convert string to integer and handle the error using tryâ€¦catch block.
 
 BEGIN TRY
 	DECLARE @NUM INT
@@ -109,7 +109,7 @@ BEGIN CATCH
 	PRINT 'ERROR STATE: ' + CAST(ERROR_STATE() AS VARCHAR)
 END CATCH
 
-------------------------------Part – B---------------------------------
+------------------------------Part â€“ B---------------------------------
 
 --7.Handle Invalid Date Format
 
@@ -125,7 +125,7 @@ BEGIN CATCH
 	PRINT 'ERROR: ' + ERROR_MESSAGE()
 END CATCH
 
---8.Procedure to Update faculty’s Email with Error Handling.
+--8.Procedure to Update facultyâ€™s Email with Error Handling.
 
 CREATE OR ALTER PROCEDURE PR_UPDATE_EMAIL
 	@FacultyID INT,
@@ -168,9 +168,9 @@ END
 
 EXEC PR_VALIDATE_DATA -5
 
-------------------------------Part – C---------------------------------
+------------------------------Part â€“ C---------------------------------
 
---10.Write a script that checks if a faculty’s salary is NULL. If it is, use RAISERROR to show a message with a severity of 16. (Note: Do not use any table)
+--10.Write a script that checks if a facultyâ€™s salary is NULL. If it is, use RAISERROR to show a message with a severity of 16. (Note: Do not use any table)
 
 DECLARE @Salary INT
 
