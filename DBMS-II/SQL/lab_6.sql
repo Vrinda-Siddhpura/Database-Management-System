@@ -7,7 +7,7 @@ SELECT * FROM STUDENT
 SELECT * FROM FACULTY
 SELECT * FROM COURSE
 
----------------------------------Part – A-------------------------------
+---------------------------------Part â€“ A-------------------------------
 
 --1.Create trigger for printing appropriate message after student registration.
 
@@ -101,7 +101,7 @@ END
 
 SELECT * FROM FACULTY
 
----------------------------------Part – B-------------------------------
+---------------------------------Part â€“ B-------------------------------
 
 --7.Create trigger for auto-stamping enrollment dates.
 
