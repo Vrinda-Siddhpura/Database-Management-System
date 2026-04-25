@@ -1,4 +1,4 @@
----------------------------------Part – A----------------------------------
+---------------------------------Part â€“ A----------------------------------
 
 CREATE TABLE LOG(
 	LogMsg VARCHAR(100),
@@ -96,7 +96,7 @@ SELECT * FROM LOG
 
 DROP TRIGGER TR_LOG_ON_COURSE
 
---5.Create trigger to Block student to update their enrollment year and print message ‘students are not allowed to update their enrollment year’
+--5.Create trigger to Block student to update their enrollment year and print message â€˜students are not allowed to update their enrollment yearâ€™
 
 CREATE OR ALTER TRIGGER TR_UPDATE_ENROLL_YEAR
 ON STUDENT
@@ -145,9 +145,9 @@ SELECT * FROM STUDENT
 
 DROP TRIGGER TR_AGE_VALIDATION
 
----------------------------------Part – B----------------------------------
+---------------------------------Part â€“ B----------------------------------
 
---7.Create trigger for unique faculty’s email check.
+--7.Create trigger for unique facultyâ€™s email check.
 
 CREATE OR ALTER TRIGGER TR_UNIQUE_EMAIL
 ON FACULTY
@@ -194,7 +194,7 @@ BEGIN
 	FROM inserted
 END
 
----------------------------------Part – C----------------------------------
+---------------------------------Part â€“ C----------------------------------
 
 --9.Create trigger to Allow enrolment in month from Jan to August, otherwise print message enrolment closed.
 
