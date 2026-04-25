@@ -1,4 +1,4 @@
--------------------------------Part – A-------------------------------- 
+-------------------------------Part â€“ A-------------------------------- 
 
 --1.INSERT Procedures: Create stored procedures to insert records into STUDENT tables (SP_INSERT_STUDENT)
 
@@ -88,7 +88,7 @@ END
 
 EXEC PR_STUDENT_DETAILS
 
--------------------------------Part – B-------------------------------- 
+-------------------------------Part â€“ B-------------------------------- 
 
 --7.Create a stored procedure which displays faculty designation-wise count.
 
@@ -115,7 +115,7 @@ END
 
 EXEC PR_STUDENT_BY_DEPARTMENT 'IT'
 
--------------------------------Part – C-------------------------------- 
+-------------------------------Part â€“ C-------------------------------- 
 
 --9.Create a stored procedure which displays department-wise maximum, minimum, and average credits of courses.
 
