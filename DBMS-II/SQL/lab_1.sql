@@ -1,4 +1,4 @@
--------------------------------Part – A-------------------------------- 
+-------------------------------Part â€“ A-------------------------------- 
 
 --1.Retrieve all unique departments from the STUDENT table.
 
@@ -106,7 +106,7 @@ WHERE ENROLLMENT.EnrollmentStatus = 'ACTIVE'
 
 SELECT * FROM ActiveEnrollments
 
---18.Retrieve the student’s name who is not enrol in any course using subquery. (STUDENT, ENROLLMENT TABLE)
+--18.Retrieve the studentâ€™s name who is not enrol in any course using subquery. (STUDENT, ENROLLMENT TABLE)
 
 SELECT StuName
 FROM STUDENT 
@@ -120,7 +120,7 @@ WHERE CourseCredits IN (SELECT TOP 2 CourseCredits
 							FROM COURSE
 							ORDER BY CourseCredits DESC)
 
--------------------------------Part – B-------------------------------- 
+-------------------------------Part â€“ B-------------------------------- 
  
 --20.Retrieve all courses along with the total number of students enrolled. (COURSE, ENROLLMENT table)
 
@@ -146,7 +146,7 @@ ON FACULTY.FacultyID = COURSE_ASSIGNMENT.FacultyID
 WHERE FACULTY.FacultyName = 'Dr. Sheth'
 ORDER BY COURSE.CourseCredits
 
--------------------------------Part – C-------------------------------- 
+-------------------------------Part â€“ C-------------------------------- 
  
 --23.List all students who are enrolled in more than 3 courses. (STUDENT, ENROLLMENT table)
 
