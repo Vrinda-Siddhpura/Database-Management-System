@@ -1,4 +1,4 @@
------------------------------------Part – A-------------------------------------
+-----------------------------------Part â€“ A-------------------------------------
 
 --1.Create a cursor Course_Cursor to fetch all rows from COURSE table and display them.
 
@@ -146,7 +146,7 @@ CLOSE StudentWithCourse
 DEALLOCATE StudentWithCourse
 GO
 
---7.Create a cursor to insert data into new table if student belong to ‘CSE’ department. (create new table CSEStudent with relevant columns)
+--7.Create a cursor to insert data into new table if student belong to â€˜CSEâ€™ department. (create new table CSEStudent with relevant columns)
 
 CREATE TABLE CseStudent(
     StudentID INT,
@@ -178,7 +178,7 @@ CLOSE InsertStudentInNewTable
 DEALLOCATE InsertStudentInNewTable
 GO
 
------------------------------------Part – B-------------------------------------
+-----------------------------------Part â€“ B-------------------------------------
 
 --8.Create a cursor to update all NULL grades to 'F' for enrollments with Status 'Completed'
 
@@ -233,7 +233,7 @@ CLOSE FacultyWithCourse
 DEALLOCATE FacultyWithCourse
 GO
 
------------------------------------Part – C-------------------------------------
+-----------------------------------Part â€“ C-------------------------------------
 
 --10.Cursor to calculate total credits per student (Example: Raj Patel has total credits = 15)
 
