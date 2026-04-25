@@ -132,7 +132,7 @@ FROM customer JOIN color
 ON customer.favorite_color_id = color.id
 WHERE color.extra_fee > 0
 
---5.List category wise clothing’s maximum price, minimum price, average price and number of clothing items.
+--5.List category wise clothingâ€™s maximum price, minimum price, average price and number of clothing items.
 
 SELECT category.name,
        MAX(clothing.price),
