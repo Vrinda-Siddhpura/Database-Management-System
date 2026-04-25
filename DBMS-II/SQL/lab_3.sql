@@ -1,4 +1,4 @@
--------------------------------Part – A-------------------------------- 
+-------------------------------Part â€“ A-------------------------------- 
 
 --1.Create a stored procedure that accepts a date and returns all faculty members who joined on that date.
 
@@ -88,7 +88,7 @@ END
 
 EXEC PR_FAC_BY_SEM_YEAR 3, 2024
 
--------------------------------Part – B-------------------------------- 
+-------------------------------Part â€“ B-------------------------------- 
 
 --7.Create a stored procedure that accepts the first letter of Status ('A', 'C', 'D') and returns enrollment details.
 
@@ -132,7 +132,7 @@ END
 
 EXEC PR_STATUS_WISE_COUNT 'CS101' 
 
--------------------------------Part – C-------------------------------- 
+-------------------------------Part â€“ C-------------------------------- 
 
 --10.Create a stored procedure that accepts a year as input and returns all courses assigned to faculty in that year with classroom details.
 
